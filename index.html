@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/tailwindinput.css">
+    <link rel="icon" type="image/png" href="fbicon.png">
+    <title>Facebook – log in or sign up</title>
+</head>
+<body>
+    <div class="bg-gray-100 flex flex-col items-center lg:items-center justify-start lg:flex-row h-[100vh] lg:justify-around">
+        <div class="flex flex-col w-1/2">
+            <img class="w-60 lg:w-80 mx-auto lg:mx-10" src="logo.svg" alt="FBLogo">
+            <p class="hidden lg:block lg:text-left lg:ml-20 text-2xl">Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <div class="relative w-[100%] max-w-sm flex flex-col my-2 px-2 lg:bg-white items-center justify-center lg:p-5 lg:rounded-md lg:shadow-lg lg:mr-20">
+            <input class="text-black focus:border-black w-[100%] py-2 px-4 my-2 bg-gray-200 border border-gray-300 rounded-sm outline-none lg:rounded-md lg:bg-white lg:text-black lg:py-2 lg:px-3" type="text" name="details" id="details" title="Mobile number or email address" placeholder="Mobile number or email address"/>
+            <input class="text-black focus:border-black w-[100%] py-2 px-4 my-2 bg-gray-200 border border-gray-300 rounded-sm outline-none lg:rounded-md lg:bg-white lg:text-black lg:py-2 lg:px-3" type="password" name="password" id="password" title="Password" placeholder="Password"/>
+            <button type="button" class="w-[100%] my-2 p-2 rounded-md text-white bg-blue-600 text-xl font-semibold break-words hover:lg:bg-blue-700">Log In</button>
+            <span class="text-blue-600 cursor-pointer text-sm my-2 text-center break-words hover:underline">Forgotten password?</span>
+            <div class="w-[100%] max-w-md flex flex-row items-center">
+                <div class="w-[47%] h-[0.08px] bg-black mx-2 lg:my-2 lg:w-[100%] lg:mx-6"></div>
+                <div class="lg:hidden">or</div>
+                <div class="w-[47%] h-[0.08px] bg-black lg:hidden mx-2"></div>
+            </div>
+            <button type="button" class="w-[100%] max-w-[60%] my-3 p-2 rounded-md text-white break-words bg-green-600 lg:p-2 lg:my-3 font-bold text-lg hover:lg:bg-green-700">Create New Account</button>
+            <span class="hidden lg:block absolute -bottom-10 text-xs"><span class="font-bold hover:underline cursor-pointer">Create a Page </span>Create a Page for a celebrity, brand or business.</span>
+        </div>
+    </div>
+</body>
+</html>
